@@ -1,27 +1,85 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<html>
+  <link rel="stylesheet" href="styles.css">
+<header id="header">
+
+<img id="header-img"  
+src="https://1000logos.net/wp-content/uploads/2016/10/apple-emblem.jpg" 
+alt="Apple logo and symbol, meaning, history, PNG" style="width: 300px; height: 90.872px; margin: 0px;"
+border="0"
+>    
+<nav id="nav-bar">
+<h1> <u> Apple products</u></h1>
+<a class="nav-link" href="#Iphone">Iphone</a>
+<a class="nav-link" href="#Ipad">Ipad</a>
+<a class="nav-link" href="#Macbook">Macbook</a>
+
+
+  </nav>
+  </header>
 
   <body>
-    <h1> hello world </h1>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <section id="Iphone">
+      <div id="iphone 12" style="width:100%">
+        <h2>Iphone 12</h2>
+        <img src="data:image/jpeg;base64,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" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" alt="IPHONE 12 PRO 128 GB - Gadget Central" data-noaft="1" style="width: 285px; height: 355.447px; margin: 0px;">"
+  
+       <h2>Iphone 11</h2>
+       <div id="iphone 12" style="width:100%">
+       <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-black-select-2019?wid=940&amp;hei=1112&amp;fmt=png-alpha&amp;.v=1566956144418" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="iPhone 11 64GB Purple - Education - Apple" data-noaft="1" style="width: 385px; height: 455.447px; margin: 0px;">
+      <div id="Iphone" >
+        <h2>iphone 13 pro</h2>
+      <iframe 
+      id="video"
+      src="https://youtu.be/XKfgdkcIUxw"
+      
+      
+      >
+      </iframe>
 
-    <!--
+      </section>
+       </div>
+    <section id="Ipad">
 
-    Hello Camper!
+      </section>
+      <section id="Macbook">
+       
+     </section>
+     </body>
+     <footer>
+       <form id="form" action="https://www.freecodecamp.com/email-submit">
+       <input
+       id="text"
+       type="text"
+       name="text"
+       placeholder="product interested with?"
+       class="text"
+       required>
+       </input>
+       <br>
+       <br>
+       <input
+       id="email"
+       type="email"
+       name="email"
+       placeholder="email"
+       class="email"
+       required>
+       </input>
+       <br>
+       <br>
+       <input
+       id="submit"
+       type="submit"
+       value="place order"
+       class="submit">
+       </form>
+       </footer>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
 
-    - The freeCodeCamp Team
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
-</html>
+
+
+
+  </html>
